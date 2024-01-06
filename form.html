@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+</head>
+<body bgcolor="gray">
+	<!-- methos = 1. get -> url ma 2.post -> body ma -->
+	<img src="demo.jpg" height="50" align="left corner">
+	<audio controls muted>
+		<source src="demo.mp3" type="">
+			<source src="demo.mp4" type="">
+	</audio>
+	<!-- <video controls muted>
+		<source src="demo.mp4" type="" >
+	</video> -->
+	<fieldset>
+		<legend>My first form</legend>
+	<form method="GET" action="table.html" target="_blank">
+		<table>
+			<tr>
+				<th>Name</th>
+				<td>: <input type="text" name="Username"> </td>
+			</tr>
+			<tr>
+				<th>Mobile Number</th>
+				<td>: <input type="number" name="Mobile number"> </td>
+			</tr>
+			<tr>
+				<th>E-mail ID</th>
+				<td>: <input type="email" name="E-mail"> </td>
+			</tr>
+			<tr>
+				<th>Password</th>
+				<td>: <input type="Password" name="Password" placeholder="Enter the Password "> </td>
+			</tr>
+			<tr>
+				<th>Gender</th>
+				<td>: <input type="radio" name="Gender">Male
+				      <input type="radio" name="Gender">Female
+				</td>
+			</tr>
+			<tr>
+				<th>Hobby</th>
+				<td>: <input type="checkbox" name="">Reading
+					<input type="checkbox" name="">Danceing
+					<input type="checkbox" name="">Writeing
+		            <input type="checkbox" name="">Gameing
+		        </td>
+			</tr>
+			<tr>
+				<th>Upload Profile picture </th>
+				<td>: <input type="file" name="picture"> </td>
+			</tr>
+		</table>
+		<input type="reset" name="" value="reset">
+		<input type="submit" name="submit" value="submit">
+		<input type="button" name="" value="cancel">
+	</form>
+	</fieldset>
+</body>
+</html>
